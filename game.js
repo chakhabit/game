@@ -6,7 +6,7 @@ btn.onclick = function () {
   let name = prompt("Donner votre nom:");
   while (true) {
     if (name === null || name === "") break;
-    let val = prompt("Donner un nombre:");
+    let val = prompt("Donner un nombre entre 1 - 100:");
     if (val === null || val === "") break;
     i++;
     if (val < ran) alert("Trop bas");
