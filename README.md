@@ -1,6 +1,7 @@
 # 😺 **"Guess the Number & Make the Cat Happy"** 🎲  
 
 Welcome to the purr-fectly ridiculous number-guessing game where your sole mission is to **make this cat happy**! 🐾  
+![make this cat happy](screenshot.png)
 
 ### **How to Play (or How to Avoid Cat-tastrophe)**  
 1. **Start the game** – The cat is watching. 👀  
