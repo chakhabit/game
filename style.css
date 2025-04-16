@@ -12,6 +12,14 @@ body {
   min-height: 100vh;
   padding: 1rem;
 }
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
 .header_container .score_container {
   color: #efebebea;
   font-size: 1.25rem;
@@ -20,16 +28,6 @@ body {
     display: inline-block;
     font-size: 1.25rem;
   }
-}
-.header_container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 20px;
 }
 .header_container .reload {
   color: #fff;
