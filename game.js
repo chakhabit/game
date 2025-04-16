@@ -6,11 +6,11 @@ btn.onclick = function () {
   let ran = Math.ceil(Math.random() * 100);
   let i = 0;
   while (true) {
-    let val = prompt("Donner un nombre entre 1 - 100:");
+    let val = prompt("Give a number between 1 - 100:");
     if (val === null || val === "") break;
     i++;
-    if (val < ran) alert("Trop bas");
-    else if (val > ran) alert("Trop Haut");
+    if (val < ran) alert("Too low");
+    else if (val > ran) alert("Too High");
     else {
       document.getElementById("reaction").src = "img/cat_like.png";
       btn.textContent = "start again";
