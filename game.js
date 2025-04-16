@@ -1,7 +1,6 @@
-let ran = Math.ceil(Math.random() * 100);
 let btn = document.getElementById("start");
-console.log(ran);
 btn.onclick = function () {
+  let ran = Math.ceil(Math.random() * 100);
   let i = 0;
   let name = prompt("Donner votre nom:");
   while (true) {
