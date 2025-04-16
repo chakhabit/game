@@ -7,7 +7,7 @@ btn.onclick = function () {
   let i = 0;
   while (true) {
     let val = prompt("Give a number between 1 - 100:");
-    if (val === null || val === "" || val !== NaN) break;
+    if (val === null || val === "" || isNaN(parseInt(+val))) break;
     i++;
     if (val < ran) alert("Too low");
     else if (val > ran) alert("Too High");
