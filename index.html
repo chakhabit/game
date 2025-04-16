@@ -7,21 +7,24 @@
     <title>Guess the Number</title>
   </head>
   <body>
+    <header class="header_container">
+      <div class="score_container">
+      <h2>last score: </h2>
+      </div>
+      <div class="reload">
+          <span onclick="location.reload()" title="reload">↺</span>
+      </div>
+    </header>
     <main class="main_container">
         <div class="box">
             <h1>Make this cat happy by guessing the number</h1>
             <img id="reaction" src="img/cat_sad.png" alt="doge" />
             <button id="start">Start</button>
         </div>
-        <div class="nav">
-        <h2>Score List:</h2>
-        <ul class="navList">
-        </ul>
-        </div>
-        <div class="reload">
-            <span onclick="location.reload()" title="reload">↺</span>
-        </div>
     </main>
+    <footer class="footer_conatiner">
+      <p>Copyright &copy;2025 By <a target="_blank" href="https://github.com/chakhabit/guessNumber">Alaa & Abidich</a></p>
+    </footer>
     <script src="game.js"></script>
   </body>
 </html>
