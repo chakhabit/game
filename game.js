@@ -2,7 +2,7 @@ let btn = document.getElementById("start");
 let score = document.createElement("span");
 score.textContent = localStorage.s;
 document.getElementsByClassName("score_container")[0].append(score);
-btn.onclick = function () {
+btn.addEventListener("click", (_) => {
   let ran = Math.ceil(Math.random() * 100);
   let i = 0;
   while (true) {
@@ -51,4 +51,4 @@ btn.onclick = function () {
       break;
     }
   }
-};
+});
